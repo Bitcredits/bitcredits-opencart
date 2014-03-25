@@ -1,9 +1,9 @@
 <?php
 /*
-©2011 BIT-PAY LLC.
+©2014 Bitcredits Inc
 Permission is hereby granted to any person obtaining a copy of this software
 and associated documentation for use and/or modification in association with
-the bit-pay.com service.
+Bitcredits Inc services.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
