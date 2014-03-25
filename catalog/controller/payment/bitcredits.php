@@ -15,10 +15,6 @@ THE SOFTWARE.
 */
 
 class ControllerPaymentBitcredits extends Controller {
-
-    // below is the url that can take you do the order information
-    // http://127.0.0.1/~spair/store/index.php?route=account/order/info&order_id=35
-
     private $payment_module_name  = 'bitcredits';
 	protected function index() {
         $this->language->load('payment/'.$this->payment_module_name);
