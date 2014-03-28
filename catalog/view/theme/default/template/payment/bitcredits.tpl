@@ -24,19 +24,3 @@
 <div class="buttons">
   <div class="right"><a id="button-confirm" class="button"><span><?php echo $button_bitcredits_confirm; ?></span></a></div>
 </div>
-<script type="text/javascript"><!--
-$('#button-confirm').bind('click', function(e) {
-  $.ajax({ 
-    type: 'GET',
-    dataType: 'json',
-    url: 'index.php?route=payment/bitcredits/send',
-    timeout: 5000,
-    error: function() {
-      alert('Error communicating with payment provider.');
-    },
-    success: function(response) {
-      window.location = response.url;
-    }
-  });
-});
-//--></script> 
